@@ -51,18 +51,18 @@ const PROJECTS: Project[] = [
     title: "Mini Supermarket",
     year: "2026",
     description: "Inventory and sales tracking system for retail environments with real-time stock management.",
-    tags: ["Java", "Spring Boot", "MySQL"],
+    tags: ["C#", "Spring Boot", "MySQL"],
     color: "bg-purple-500",
-    link: "https://github.com/HP103"
+    link: "https://github.com/tongthanhdat009/dotnet-backend.git"
   },
   {
     id: 3,
-    title: "Student Management System",
+    title: "Long-distance Bus Ticket Management System",
     year: "2024",
-    description: "A student management application to manage student information and academic records with CRUD operations.",
-    tags: ["Java", "OOP", "MySQL", "IntelliJ"],
+    description: "A system for managing bus tickets for long-distance routes with real-time availability and booking features.",
+    tags: ["Java", "Spring Boot", "MySQL", "IntelliJ"],
     color: "bg-emerald-500",
-    link: "https://github.com/HP103"
+    link: "https://github.com/thankhanh/bus-backend.git"
   }
 ];
 
@@ -202,8 +202,8 @@ export default function App() {
               Software Engineering Student
             </span>
             <h1 className="text-5xl md:text-7xl font-black text-slate-900 mb-6 tracking-tight leading-[1.1]">
-              Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">Digital</span><br />
-              Masterpieces.
+              Nguyễn Văn Hoàng Phúc 
+              
             </h1>
             <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-10 leading-relaxed">
               I bridge the gap between complex backend logic and seamless user experiences. 
@@ -212,11 +212,12 @@ export default function App() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a 
-                href="/cv.pdf" // Replace with actual PDF path
-                download="Nguyen_Van_Hoang_Phuc_CV.pdf"
+                href="/Profile/HoangPhuc_s_Resume_.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex items-center gap-2 bg-white border border-slate-200 px-8 py-4 rounded-2xl font-bold text-slate-800 hover:border-blue-500 hover:text-blue-600 transition-all shadow-sm active:scale-95"
               >
-                Download CV
+                View CV
                 <Download className="w-5 h-5 group-hover:translate-y-0.5 transition-transform" />
               </a>
               <div className="flex items-center gap-3">
