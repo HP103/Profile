@@ -4,9 +4,10 @@ import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig(({mode}) => {
-  base: "/Profile/"
+  
   const env = loadEnv(mode, '.', '');
   return {
+    base: "/Profile/",
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
